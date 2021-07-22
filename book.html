@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="welcom">
+		<title>Tp Livre</title>
+
+		<link rel="stylesheet" href="Style.css">
+	</head>
+	<body>
+		<div class="D1">
+
+			<label>#CODE</label>
+			<input type="text" id="code">
+
+			<label>ISBN </label>
+			<input type="text" id="isbn">
+
+			<label>AUTEUR</label>
+			<input type="text" id="auteur">
+
+			<label>TITRE</label>
+			<input type="text" id="title">
+
+
+			<div class="action">
+				<button id="btnadd">Ajouter</button>
+				<button id="vide">vider</button>
+				<button id="btnedit">Edit</button>
+			</div>
+
+		</div>
+
+		<input id="txtsearsh" type="text" placeholder="Search...">
+
+		<table id='tab'>
+			<tr><th>#CODE</th><th>ISBN</th><th>AUTEUR</th><th>TITRE</th><th>EDIT</th></tr>
+			
+			<tbody id='bodyTab'>
+			
+			</tbody>
+			
+		</table>
+
+		<script src="script.js"></script>
+
+	</body>
+</html>
